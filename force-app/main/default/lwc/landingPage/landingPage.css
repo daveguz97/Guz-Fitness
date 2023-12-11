@@ -1,0 +1,43 @@
+:host {
+    --dxp-s-text-heading-large-color: #efefef;
+    --dxp-s-text-heading-medium-color: #efefef;
+    --dxp-s-body-text-color: #efefef;
+}
+main {
+    background-color: #0d0e0e;
+}
+
+.landing-page-home {
+    text-align: center;
+    margin: auto;
+}
+
+section {
+    filter: grayscale(80%);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #efefef;
+}
+
+section div {
+    width: 50%;
+}
+
+section div .subtitle {
+    margin: 1rem 0;
+}
+
+.title {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.lead {
+    font-weight: 600;
+}

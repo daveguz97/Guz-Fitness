@@ -1,24 +1,82 @@
 <template>
     <main>
-		<section class="landing-page-home">
-			<h1 class="title">FitConnect</h1>
-			<p class="lead">Accomplish your Fitness Goals Together</p>
-		</section>
-		<section class="track-your-fitness">
-			<h2 class="subtitle">Track your Fitness Goals</h2>
-			<p>Track your fitness goals by adding your weight and get a gamified way of tracking your progress.</p>
-		</section>
-		<section class="meals">
-			<h2>Meals Tailored to YOU</h2>
-			<p>Add your weight, alergies, and more and you will get personalized meal plans tailored to you whether it's for breakfast, lunch, or dinner.</p>
-		</section>
-		<section class="exercise">
-			<h2>Exercises Never Felt so Rewarding</h2>
-			<p>Whether you are a newbie or an athlete, you'll get exercises tailored to you. You'll also have a gamified level system to track your progress.</p>
-		</section>
-		<section class="collaborate">
-			<h2>Stay Accountable through Chatter</h2>
-			<p>Stay accountable but participating in discussions through chatter.</p>
-		</section>
-	</main>
+            <section style={backgroundHomeSection} class="landing-page-home">
+                <div>
+                    <h1 class="title slds-text-heading_large">FitConnect</h1>
+                    <p class="lead slds-text-body_regular">
+                        Accomplish your Fitness Goals Together
+                    </p>
+                </div>
+            </section>
+			<!-- TODO: Remove the other images -->
+            <section style={backgroundGoalSection} class="track-your-fitness">
+                <div>
+                    <h2
+                        class="subtitle slds-m-bottom_small slds-text-heading_medium"
+                    >
+                        Track your Fitness Goals
+                    </h2>
+                    <p class="slds-text-body_regular">
+                        Track your fitness goals with a gamified approach.
+                    </p>
+                </div>
+            </section>
+            <section style={backgroundMealSection} class="meals">
+                <div>
+                    <h2
+                        class="subtitle slds-m-bottom_small slds-text-heading_medium"
+                    >
+                        Meals Tailored to YOU
+                    </h2>
+                    <p class="slds-text-body_regular">
+                        Add your weight, alergies, and more and you will get
+                        personalized meal plans tailored to you whether it's for
+                        breakfast, lunch, or dinner.
+                    </p>
+                </div>
+            </section>
+            <section style={backgroundExerciseSection} class="exercise">
+                <div>
+                    <h2
+                        class="subtitle slds-m-bottom_small slds-text-heading_medium"
+                    >
+                        Exercises Never Felt so Rewarding
+                    </h2>
+                    <p class="slds-text-body_regular">
+                        Whether you are a newbie or an athlete, you'll get
+                        exercises tailored to you. You'll also have a gamified
+                        level system to track your progress.
+                    </p>
+                </div>
+            </section>
+            <section style={backgroundCollaborateSection} class="collaborate">
+                <div>
+                    <h2
+                        class="subtitle slds-m-bottom_small slds-text-heading_medium"
+                    >
+                        Stay Accountable through Chatter
+                    </h2>
+                    <p class="slds-text-body_regular">
+                        Stay accountable but participating in discussions
+                        through chatter.
+                    </p>
+                </div>
+            </section>
+            <section style={signUpSection} class="sign-up">
+                <div>
+                    <h2
+                        class="subtitle slds-m-bottom_small slds-text-heading_medium"
+                    >
+                        Interested in Joining
+                    </h2>
+                    <lightning-button
+                        label="Sign Up"
+                        title="Sign Up"
+                        variant="brand"
+                    >
+                        <label>Sign Up</label>
+                    </lightning-button>
+                </div>
+            </section>
+    </main>
 </template>
